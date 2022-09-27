@@ -1,0 +1,25 @@
+.container {
+  width: 134px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--color-main);
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  cursor: pointer;
+  font-family: var(--font-med);
+  color: var(--color-main);
+  font-size: var(--font-size-small);
+}
+
+.container:hover {
+  background-color: rgba(75, 168, 182, 0.2);
+  color: var(--color-main);
+}
+
+.selectBtn {
+  background-color: var(--color-main);
+  color: var(--color-white);
+}

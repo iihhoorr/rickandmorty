@@ -1,0 +1,51 @@
+.episodeContainer {
+	margin-top: 60px;
+	padding-right: 40px;
+	margin-bottom: 40px;
+}
+
+.episodeHeaderContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.episodeHeaderButtonsContainer {
+	display: flex;
+}
+
+.headerTitle {
+	font-family: var(--font-med);
+	font-size: var(--font-size-bold);
+	color: var(--color-black);
+}
+
+.headerTotalText {
+	font-family: var(--font-reg);
+	font-style: normal;
+	font-size: var(--font-size-regular);
+	color: var(--color-black);
+	margin-bottom: 17px;
+}
+
+.headerTotalCountText {
+	font-family: var(--font-med);
+	font-size: var(--font-size-regular);
+	color: var(--color-main);
+}
+
+.headerFilterButton {
+	width: 134px;
+	margin-right: 15px;
+}
+
+.modalAddBtnContainer{
+	display: flex;
+	margin: 0 auto;
+	width: 60%;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 33px;
+}
+
+

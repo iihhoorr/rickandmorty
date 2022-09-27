@@ -1,0 +1,22 @@
+.mainInput {
+	width: 100%;
+	appearance: none;
+}
+
+.errorText {
+	display: flex;
+	/* position: absolute; */
+	/* transform: translateY(30px); */
+	width: 100%;
+}
+
+.inputMainContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.disabled {
+	background-color: #f5f7f7;
+	color: var(--btn-not-active);
+}

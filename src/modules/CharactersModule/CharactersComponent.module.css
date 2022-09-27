@@ -1,0 +1,113 @@
+.companiesContainer {
+	margin-top: 60px;
+	padding-right: 40px;
+	margin-bottom: 40px;
+}
+
+.companiesHeaderContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.companiesHeaderButtonsContainer {
+	display: flex;
+}
+
+.charactersItemsContainer {
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+}
+
+.headerTitle {
+	font-family: var(--font-med);
+	font-size: var(--font-size-bold);
+	color: var(--color-black);
+}
+
+.headerTotalText {
+	font-family: var(--font-reg);
+	font-style: normal;
+	font-size: var(--font-size-regular);
+	color: var(--color-black);
+	margin-bottom: 17px;
+}
+
+.headerTotalCountText {
+	font-family: var(--font-med);
+	font-size: var(--font-size-regular);
+	color: var(--color-main);
+}
+
+.headerFilterButton {
+	width: 134px;
+	margin-right: 15px;
+}
+
+.modalAddBtnContainer{
+	display: flex;
+	margin: 0 auto;
+	width: 60%;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 33px;
+}
+
+.charactersItemContainer{
+	display: grid;
+    grid-template-rows: max-content 50px 1fr;
+	align-items: center;
+	justify-content: center;
+	border: 1.5px solid var(--color-main);
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 14px;
+	cursor: pointer;
+	font-family: var(--font-med);
+	color: var(--color-main);
+	font-size: var(--font-size-small);
+	text-align: center;
+}
+
+.charactersItemContainer:hover {
+	background-color: rgba(75, 168, 182, 0.2);
+	color: var(--color-main);
+
+  }
+
+.charactersImage {
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.charactersName{
+	font-size: var(--font-size-medium);
+	color: var(--color-black);
+}
+
+.charactersInfoContainer {
+	display: flex;
+	width: 100%;
+	margin-bottom: 14px;
+}
+
+.label {
+	font-family: var(--font-bold);
+	font-size: var(--font-size-medium);
+	color: var(--color-black);
+	min-width: 122px;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.value {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-medium);
+	color: var(--color-black);
+}
+
+
+

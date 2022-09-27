@@ -1,0 +1,65 @@
+.btn {
+	border: none;
+	outline: none;
+	font-family: var(--font-med);
+	font-size: var(--font-size-small);
+	color: var(--color-white);
+	min-width: 134px;
+	height: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: var(--color-main);
+}
+
+.btn:hover {
+	background-color: var(--color-white);
+	color: var(--color-main);
+	border: 1px solid var(--color-main);
+}
+
+.btn:active {
+	background-color: var(--color-mainDarker);
+	color: var(--color-white);
+	border: 1px solid var(--color-mainDarker);
+}
+
+.removeBtn {
+	background-color: var(--color-red);
+	color: var(--color-white);
+}
+
+.removeBtn:hover {
+	background-color: var(--color-white);
+	color: var(--color-red);
+	border: 1px solid var(--color-red);
+}
+
+.removeBtn:active {
+	background-color: var(--color-red);
+	color: var(--color-white);
+	border: 1px solid var(--color-red);
+}
+
+.disable {
+	background-color: var(--btn-disable);
+	cursor: not-allowed;
+}
+
+.disable:hover {
+	background-color: var(--btn-disable);
+	color: var(--color-white);
+	border: none;
+}
+
+.notActivBtn {
+	background-color: var(--btn-not-active);
+}
+
+.notActivBtn:hover {
+	background-color: var(--color-white);
+	color: var(--btn-not-active);
+	border: 1px solid var(--btn-not-active);
+}

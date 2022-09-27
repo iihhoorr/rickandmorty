@@ -1,0 +1,60 @@
+#root {
+	--font-reg: "Poppins-Regular";
+	--font-light: "Poppins-Light";
+	--font-med: "Poppins-Medium";
+	--font-bold: "Poppins-Bold";
+
+	--font-size-smaller: 10px;
+	--font-size-small: 12px;
+	--font-size-regular: 16px;
+	--font-size-subtitle: 18px;
+	--font-size-medium: 20px;
+	--font-size-semiBold: 22px;
+	--font-size-bold: 24px;
+
+	--color-black: #000;
+	--color-white: #fff;
+	--color-gray: #5c5c5c;
+	--color-darker-gray: #91a5a6;
+	--color-modal: #d8e3e3;
+	--color-midGray: #e2eaea;
+	--color-main: #4ba8b6;
+	--color-mainDarker: #078599;
+	--color-subMain: #87c7c3;
+	--color-red: #c50404;
+	--color-yellow: #f5a70e;
+	--color-active: #019f67;
+	--color-expired: #c70101;
+	--input-bg: #ebf0f0;
+	--input-error-bg: #eae3e2;
+	--btn-disable: #c9d7d8;
+	--btn-not-active: #91a5a6;
+}
+
+.input {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-small);
+	color: var(--color-black);
+	border-radius: 5px;
+	border: none;
+	padding: 6px 11px 7px 11px;
+	margin: 0;
+	background-color: var(--input-bg);
+	border: 1px solid var(--color-white);
+	box-sizing: border-box;
+}
+
+.input:focus {
+	outline: solid var(--color-subMain) 1px;
+}
+
+.errorInput {
+	border: 1px solid var(--color-expired);
+	background-color: var(--input-error-bg);
+}
+
+.invalidValue {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-small);
+	color: var(--color-red);
+}

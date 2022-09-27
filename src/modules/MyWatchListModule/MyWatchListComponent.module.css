@@ -1,0 +1,53 @@
+.watchListContainer {
+	margin-top: 60px;
+	padding-right: 40px;
+	margin-bottom: 40px;
+}
+
+.watchListHeaderContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.headerTitle {
+	font-family: var(--font-med);
+	font-size: var(--font-size-bold);
+	color: var(--color-black);
+}
+
+.headerTotalText {
+	font-family: var(--font-reg);
+	font-style: normal;
+	font-size: var(--font-size-regular);
+	color: var(--color-black);
+	margin-bottom: 17px;
+}
+
+.headerTotalCountText {
+	font-family: var(--font-med);
+	font-size: var(--font-size-regular);
+	color: var(--color-main);
+}
+
+.addEpisodeContainer {
+	display: flex;
+}
+
+.addEpisodeButton {
+	height: 32px;
+}
+
+
+.myWatchListItemsContainer {
+	display: flex;
+	margin-top: 30px;
+	flex-direction: column;
+}
+
+.myWatchListItem {
+	display: flex;
+	justify-content: space-between;
+}
+
+

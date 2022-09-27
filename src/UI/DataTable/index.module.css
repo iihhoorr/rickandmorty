@@ -1,0 +1,257 @@
+.table {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	border-bottom: 5px solid var(--color-midGray);
+}
+
+.errorRequestCompanyText {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 10px;
+	color: var(--color-red);
+	font-family: var(--font-light);
+	font-size: var(--font-size-small);
+}
+
+tr {
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 1;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	border-bottom: 5px solid var(--color-midGray);
+}
+.body {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 8px;
+	min-height: 430px;
+}
+
+.row {
+	display: flex;
+	flex-grow: 0;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 13px;
+	align-items: center;
+	height: 17px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid var(--color-midGray);
+}
+
+.row:hover {
+	background-color: #cbebe8;
+	cursor: pointer;
+}
+
+.table {
+	display: flex;
+	flex-direction: column;
+}
+
+.tableHeaderSeparator {
+	display: flex;
+	flex: 1;
+	height: 5px;
+	background-color: var(--color-midGray);
+	margin-bottom: 12px;
+}
+
+.sortContainer {
+	cursor: pointer;
+}
+.sortIconContainer {
+	z-index: 1000;
+}
+.iconStyles {
+	margin-left: 7px;
+}
+
+.headerItemText {
+	font-family: var(--font-bold);
+	font-size: var(--font-size-small);
+	color: var(--color-gray);
+}
+
+.tableItemText {
+	font-family: var(--font-light);
+	font-size: var(--font-size-small);
+	color: var(--color-gray);
+	position: relative;
+	display: inline-block;
+	text-overflow: ellipsis;
+	width: 120px;
+	white-space: nowrap;
+}
+
+.tableItemText i {
+	visibility: hidden;
+	position: absolute;
+	font-style: normal;
+	top: 0;
+	left: 0;
+	background-color: #cbebe8;
+	font-weight: 900;
+	padding-right: 10px;
+	z-index: 1;
+}
+
+.tableItemText:hover i {
+	visibility: visible;
+}
+
+.controlContainer {
+	display: flex;
+	flex-direction: row;
+}
+.countContainer {
+	display: flex;
+	flex-direction: row;
+	padding-left: 10px;
+}
+
+.controlTitleText {
+	font-family: var(--font-light);
+	font-size: var(--font-size-small);
+	color: var(--color-gray);
+}
+
+.controltext {
+	font-family: var(--font-light);
+	font-size: var(--font-size-small);
+	color: var(--color-gray);
+	cursor: pointer;
+}
+
+.controlSeparator {
+	margin-left: 3px;
+	margin-right: 3px;
+	color: var(--color-gray);
+}
+
+.countSelect {
+	font-family: var(--font-bold);
+}
+
+.paginationContainer {
+	display: flex;
+	flex: 1;
+	height: 18px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.paginationContainerList {
+	display: flex;
+	flex-direction: row;
+	padding-left: 0;
+}
+
+.pageTitle {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-small);
+	color: var(--color-gray);
+	margin-right: 10px;
+}
+
+.pageIcon {
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.pageItem {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-small);
+	color: var(--color-gray);
+	cursor: pointer;
+}
+
+.pageItemSelect {
+	font-family: var(--font-bold);
+	font-size: var(--font-size-small);
+	color: var(--color-gray);
+	cursor: pointer;
+}
+
+.removeBtnContainer {
+	margin-bottom: 17px;
+}
+
+.checkBoxContainer {
+	display: flex;
+	align-items: center;
+}
+
+.removeContainer {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 28px;
+}
+
+.separator {
+	width: 17px;
+}
+.elementRender span.tooltip {
+	display: none;
+}
+.elementRender:hover span.tooltip {
+	position: absolute;
+	transform: translateX(40px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 4px 9px;
+	background-color: #ebf0f0;
+	border-radius: 5px;
+	text-align: center;
+	font-family: var(--font-light);
+	font-size: var(--font-size-small);
+	z-index: 1000;
+	max-width: 300px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+}
+
+.headerLegendContainer {
+	width: 60%;
+	display: flex;
+	position: relative;
+	padding-left: 10px;
+}
+.headerLegendText {
+	color: var(--color-gray);
+	font-size: var(--font-size-small);
+	font-family: var(--font-reg);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.headerLegentBodyContainer {
+	width: 362px;
+	height: 69px;
+	position: absolute;
+	background: #f2f2f2;
+	box-shadow: 1px 2px 8px rgba(114, 114, 114, 0.27);
+	border-radius: 5px;
+	bottom: -72px;
+	right: -282px;
+	z-index: 10000;
+}

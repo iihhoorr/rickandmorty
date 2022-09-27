@@ -1,0 +1,46 @@
+.contentContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.modalContainer {
+	width: 390px;
+}
+
+.companyNameContainer {
+	display: flex;
+	width: 100%;
+	margin-bottom: 14px;
+}
+
+.companyName {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-small);
+	color: var(--color-black);
+}
+
+.HyperLinkName {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-small);
+	color: var(--color-mainDarker);
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+
+.label {
+	font-family: var(--font-bold);
+	font-size: var(--font-size-small);
+	color: var(--color-black);
+	min-width: 122px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.closeBtn {
+	background: #c2d1d2;
+	width: 174px;
+	margin: 0 auto;
+	margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+.container {
+	margin-top: 60px;
+}
+
+.title {
+	font-family: var(--font-bold);
+	font-size: 35px;
+	color: var(--color-main);
+	text-align: center;
+	margin: 0;
+}
+
+.subTitle {
+	font-family: var(--font-bold);
+	font-size: var(--font-size-semiBold);
+	color: var(--color-black);
+	text-align: center;
+	margin: 0;
+}
+
+.text {
+	font-family: var(--font-reg);
+	font-size: var(--font-size-regular);
+	color: var(--color-black);
+	text-align: center;
+	margin: 10px 0 0 0;
+}
