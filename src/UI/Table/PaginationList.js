@@ -41,7 +41,7 @@ const PaginationList = ({ total, page, changePagination }) => {
 
 	return (
 		<div className={styles.paginationContainer}>
-			<div onClick={() => changePagination("page", Number(page))} className={styles.pageIcon}>
+			<div onClick={() => changePagination("page", Number(page) - 1)} className={styles.pageIcon}>
 				<img src={ArrowPageLeft} alt="" />
 			</div>
 
