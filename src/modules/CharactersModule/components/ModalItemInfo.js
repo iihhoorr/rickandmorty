@@ -9,7 +9,9 @@ const ModalItemInfo = ({ show, controlModalItem, infoItem }) => {
 	return (
 		<ModalWrapper show={show} onClose={controlModalItem} title={"Character info"}>
 			<>
-				<img className={styles.charactersImage} src={infoItem.image} alt="Character image" />
+				<div className={styles.charactersImageModalConatiner}>
+					<img className={styles.charactersImageModal} src={infoItem.image} alt="Character image" />
+				</div>
 				<div>
 					<div className={styles.charactersInfoContainer}>
 						<span className={styles.label}>Name:</span>

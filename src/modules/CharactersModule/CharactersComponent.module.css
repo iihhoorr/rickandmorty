@@ -82,6 +82,10 @@
     height: 100%;
 }
 
+.charactersImageModalConatiner{
+	text-align: center;
+}
+
 .charactersName{
 	font-size: var(--font-size-medium);
 	color: var(--color-black);
